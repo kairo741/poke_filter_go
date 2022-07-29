@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 // TODO - definir
 const darkPrimaryColor = Color.fromARGB(255, 0, 121, 107);
-const lightPrimaryColor = Color.fromARGB(255, 178, 223, 219);
-const primaryColor = Color.fromARGB(255, 7, 34, 78);
+const kPrimaryLightColor = Color.fromARGB(255, 55, 94, 171);
+const kPrimaryColor = Color.fromARGB(255, 7, 34, 78);
+const kSecondColor = Color.fromARGB(255, 255, 203, 8);
 const textIcons = Color.fromARGB(255, 255, 255, 255);
 const accentColor = Color.fromARGB(255, 0, 188, 212);
 const primaryText = Color.fromARGB(255, 33, 33, 33);

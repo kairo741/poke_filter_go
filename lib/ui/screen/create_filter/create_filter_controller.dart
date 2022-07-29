@@ -4,8 +4,7 @@ class CreateFilterController {
   List<FilterAttribute> findAttributes() {
     var attributes = <FilterAttribute>[];
     for (var i = 1; i < 10; i++) {
-      attributes
-          .add(FilterAttribute(attribute: "attribute $i", value: i.toString()));
+      attributes.add(FilterAttribute(attribute: "attribute $i", value: i));
     }
 
     return attributes;

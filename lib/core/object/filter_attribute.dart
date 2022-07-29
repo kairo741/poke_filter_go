@@ -1,7 +1,8 @@
 class FilterAttribute {
   String attribute;
-  String? value;
+  int value;
   bool active;
 
-  FilterAttribute({required this.attribute, this.value, this.active = false});
+  FilterAttribute(
+      {required this.attribute, this.value = 0, this.active = false});
 }

@@ -20,16 +20,14 @@ class CreateFilterWidget extends State<CreateFilterPage> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: ListView.builder(
-          itemCount: attributes.length,
-          itemBuilder: (context, index) {
-            return CheckboxTileComponent(
-              attribute: attributes[index],
-            );
-          },
-        ),
+    return Scaffold(
+      body: ListView.builder(
+        itemCount: attributes.length,
+        itemBuilder: (context, index) {
+          return CheckboxTileComponent(
+            attribute: attributes[index],
+          );
+        },
       ),
     );
   }

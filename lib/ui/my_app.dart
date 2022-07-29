@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'PokeFilterGO',
       theme: ThemeData(
-          primarySwatch: primaryMaterialColor, brightness: Brightness.dark),
+          primarySwatch: primaryMaterialColor, brightness: Brightness.light),
       home: const HomePage(),
     );
   }
